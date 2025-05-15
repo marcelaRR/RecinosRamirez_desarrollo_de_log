@@ -1,0 +1,4 @@
+
+05-14-2025 20:08:25.872400 CST ::1 [info]: referer: NULL REFERER El archivo C:\xampp\htdocs\RecinosRamirez_desarrollo_de_log\index.php ha sido cargado Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+05-14-2025 20:08:36.188100 CST ::1 [warning]: referer: http://localhost/RecinosRamirez_desarrollo_de_log/ HA INTENTADO SUPLAMANTAR UN REFERER NO AUTORIZADO Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
+05-14-2025 20:08:36.193500 CST ::1 [info]: referer: http://localhost/RecinosRamirez_desarrollo_de_log/ El archivo C:\xampp\htdocs\RecinosRamirez_desarrollo_de_log\index.php ha sido cargado Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
