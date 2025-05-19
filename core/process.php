@@ -1,16 +1,15 @@
 <?php
-ini_set('display_errors', '1');
-ini_set('display_startup_errors', '1');
-include("inc/funciones.inc.php");
-include("secure/ips.php");
-
+ini_set('display_error',1);
+ini_set('display_startup_error',1);
+include('inc/funciones.inc.php');
+include('secure/ips.php');
 
 $metodo_permitido = "POST";
 $archivo = "../logs/log.log";
 $dominio_autorizado = "localhost";
-$ip = ip_in_ranges($_SERVER['REMOTE_ADDR'], $rango);
+$ip = ip_in_ranges($_SERVER["REMOTE_ADDR"],$rango);
 $txt_usuario_autorizado = "admin";
-$txt_password_autorizada = "admin";
+$txt_password_autorizado = "admin";
 
 //SE VERIFICA EL USUARIO HAYA NAVEGADO EN NUESTRO SISTEMA PARA LLEGAR AQUI A ESTE ARCHIVO
 if(array_key_exists("HTTP_REFERER",$_SERVER)){
