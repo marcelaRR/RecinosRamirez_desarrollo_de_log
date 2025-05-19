@@ -5,8 +5,6 @@ include("inc/funciones.inc.php");
 include("secure/ips.php");
 
 
-$rango = ["127.0.0.1", "::1", "192.168.0.0/16"];
-
 $metodo_permitido = "POST";
 $archivo = "../logs/log.log";
 $dominio_autorizado = "localhost";
